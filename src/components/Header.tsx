@@ -49,19 +49,13 @@ export default function Header() {
             }}
             text="Home"
           />
+
           <MenuOption
             onSelect={() => {
-              navigation.navigate('About' as never);
+              navigation.navigate('Lokaler' as never);
               setMenuOpen(false);
             }}
-            text="About"
-          />
-          <MenuOption
-            onSelect={() => {
-              navigation.navigate('Menu' as never);
-              setMenuOpen(false);
-            }}
-            text="Menu"
+            text="Lokaler"
           />
           <MenuOption
             onSelect={() => {
@@ -69,6 +63,13 @@ export default function Header() {
               setMenuOpen(false);
             }}
             text="Book Table"
+          />
+          <MenuOption
+            onSelect={() => {
+              navigation.navigate('About' as never);
+              setMenuOpen(false);
+            }}
+            text="About"
           />
           <MenuOption
             onSelect={() => {

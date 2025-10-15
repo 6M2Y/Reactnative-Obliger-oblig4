@@ -1,3 +1,5 @@
+//list of locations
+
 import { Alert } from 'react-native';
 import { Location } from './Types';
 
